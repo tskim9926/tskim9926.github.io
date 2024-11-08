@@ -29,14 +29,14 @@ exclude:
 
 # Optimize Jekyl SEO Tag
 twitter:
-  username: vszhub
+  username: Taeseung
   card: summary
 logo: logo.png
 social:
   name: Taeseung Kim
   links:
-    - https://twitter.com/vszhub
-    - https://github.com/vszhub
+    - #https://twitter.com/vszhub
+    - https://github.com/tskim9926
 google_site_verification: xxxxx
 lang: en
 
@@ -55,10 +55,10 @@ sass:
 # Specify the author for blog posts
 author:
   name: Taeseung Kim
-  url: https://github.com/vszhub/
+  url: https://github.com/tskim9926
   email: tskim9926@gmail.com
   bio: |
     Taeseung Kim, a Software Engineer specializing in semiconductor manufacturing. 
-    Since August 2020, he has been developing systems and equipment that control lasers and scanners 
+    Since August 2020, I have been developing systems and equipment that control lasers and scanners 
     based on recipe data to shape patterns on wafers.
-    He graduated with a Bachelor's degree in Electronic Engineering from Korea Polytechnic University.
+    I graduated with a Bachelor's degree in Electronic Engineering from Korea Polytechnic University.
