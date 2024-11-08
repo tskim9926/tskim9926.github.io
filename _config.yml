@@ -1,7 +1,7 @@
 # Setup
-title: Not Pure Poole
-description: A simple, beautiful, and powerful Jekyll theme for blogs
-url: https://vszhub.github.io
+title: Taeseung's Develop Blog
+description: I hope we can grow together through sharing knowledge and technology.
+url: https://tskim9926.github.io
 avatar: /avatar.jpeg
 paginate: 5
 permalink: pretty
@@ -33,7 +33,7 @@ twitter:
   card: summary
 logo: logo.png
 social:
-  name: Songzi Vong
+  name: Taeseung Kim
   links:
     - https://twitter.com/vszhub
     - https://github.com/vszhub
@@ -54,6 +54,11 @@ sass:
 
 # Specify the author for blog posts
 author:
-  name: Songzi Vong
+  name: Taeseung Kim
   url: https://github.com/vszhub/
-  email: vszhub@gmail.com
+  email: tskim9926@gmail.com
+  bio: |
+    Taeseung Kim, a Software Engineer specializing in semiconductor manufacturing. 
+    Since August 2020, he has been developing systems and equipment that control lasers and scanners 
+    based on recipe data to shape patterns on wafers.
+    He graduated with a Bachelor's degree in Electronic Engineering from Korea Polytechnic University.
