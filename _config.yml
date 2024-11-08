@@ -1,6 +1,6 @@
 # Setup
-title: Taeseung's Develop Blog
-description: I hope we can grow together through sharing knowledge and technology.
+title: TasSeung Dev log
+description: I hope we can grow together.
 url: https://tskim9926.github.io
 avatar: /avatar.jpeg
 paginate: 5
@@ -29,13 +29,13 @@ exclude:
 
 # Optimize Jekyl SEO Tag
 twitter:
-  username: Taeseung
+  username: Taeseung Kim
   card: summary
 logo: logo.png
 social:
   name: Taeseung Kim
   links:
-    - #https://twitter.com/vszhub
+    - https://tskim9926.github.io
     - https://github.com/tskim9926
 google_site_verification: xxxxx
 lang: en
