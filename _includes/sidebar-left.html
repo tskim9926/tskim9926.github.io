@@ -33,19 +33,15 @@
   {% if site.data.social -%}
     <div class="social pure-menu pure-menu-horizontal">
       <ul class="social-icons pure-menu-list">
-        <!-- GitHub 아이콘 추가 -->
-        <li class="pure-menu-item">
-          <a class="social-icon pure-menu-link" href="https://github.com/tskim9926" title="GitHub">
-            <i class="fab fa-github"></i> <!-- GitHub 아이콘 -->
-          </a>
-        </li>
-        
-        <!-- 이메일 아이콘 추가 -->
-        <li class="pure-menu-item">
-          <a class="social-icon pure-menu-link" href="mailto:tskim9926@gmail.com" title="Email">
-            <i class="fas fa-envelope"></i> <!-- 이메일 아이콘 -->
-          </a>
-        </li>
+        {% for social in site.data.social -%}
+          {% if social.icon == "fab fa-github" or social.icon == "fas fa-envelope" %}  <!-- 깃허브와 이메일 아이콘만 표시 -->
+            <li class="pure-menu-item">
+              <a class="social-icon pure-menu-link" href="{{ social.url }}">
+                <i class="{{ social.icon | default: 'fas fa-link' }}" title="{{ social.title }}"></i>
+              </a>
+            </li>
+          {% endif %}
+        {% endfor %}
       </ul>
     </div>
   {%- endif %}
