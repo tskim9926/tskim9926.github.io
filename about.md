@@ -1,12 +1,7 @@
 ---
-
-
----
 # 안녕하세요! 👋
 
 Software Engineer, Taeseung Kim 입니다. 기술 공유를 위해 이 공간을 운영하고 있습니다.
-
----
 
 ## 💻 Skill Stack
 
@@ -15,14 +10,10 @@ Software Engineer, Taeseung Kim 입니다. 기술 공유를 위해 이 공간을
 [![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=CSharp&logoColor=white)](https://en.wikipedia.org/wiki/C_Sharp_(programming_language))
 [![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white)](https://www.python.org/)
 
----
-
 ## 🚀 Develop Environment
 
 [![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white)](https://www.mysql.com/)
 [![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=Linux&logoColor=black)](https://www.linux.org/)
-
----
 
 ## 🛠 Tools
 
@@ -35,21 +26,16 @@ Software Engineer, Taeseung Kim 입니다. 기술 공유를 위해 이 공간을
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=GitHub&logoColor=white)](https://github.com/)
 [![Bitbucket](https://img.shields.io/badge/Bitbucket-0052CC?style=flat-square&logo=Bitbucket&logoColor=white)](https://bitbucket.org/)
 
----
-
 ## 📈 GitHub 활동도
 
 ![Taeseung Kim's GitHub stats](https://github-readme-stats.vercel.app/api?username=tskim9926&show_icons=true&theme=radical)
-
----
 
 ## 📫 Contact
 
 [![Gmail Badge](https://img.shields.io/badge/Gmail-d14836?style=flat-square&logo=Gmail&logoColor=white&link=mailto:tskim9926@gmail.com)](mailto:tskim9926@gmail.com)
 [![GitHub Badge](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=GitHub&logoColor=white&link=https://tskim9926.github.io)](https://tskim9926.github.io)
 
----
-
 ![Keep Coding](https://media.giphy.com/media/3o7aD2d7hy9ktXNDP2/giphy.gif)
+
 
 ---
