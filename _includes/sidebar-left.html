@@ -34,16 +34,21 @@
     <div class="social pure-menu pure-menu-horizontal">
       <ul class="social-icons pure-menu-list">
         {% for social in site.data.social -%}
-          {% if social.icon == "fab fa-github" or social.icon == "fas fa-envelope" %}  <!-- 깃허브와 이메일 아이콘만 표시 -->
+          {% if social.icon != "fab fa-twitter" %}  <!-- 트위터 아이콘을 제외하는 조건 -->
             <li class="pure-menu-item">
               <a class="social-icon pure-menu-link" href="{{ social.url }}">
                 <i class="{{ social.icon | default: 'fas fa-link' }}" title="{{ social.title }}"></i>
               </a>
             </li>
           {% endif %}
-        {% endfor %}
+        {%- endfor %}
+        <!-- 이메일 버튼 추가 (메일로 직접 연결) -->
+        <li class="pure-menu-item">
+          <a class="social-icon pure-menu-link" href="mailto:tskim9926@gmail.com" title="Email">
+            <i class="fas fa-envelope"></i>
+          </a>
+        </li>
       </ul>
     </div>
   {%- endif %}
-
 </header>
