@@ -1,7 +1,6 @@
-
 # 안녕하세요! 👋
 
-Application Engineer, Taeseung Kim 입니다. 기술 공유를 위해 이 공간을 운영하고 있습니다.
+Software Engineer, Taeseung Kim 입니다. 기술 공유를 위해 이 공간을 운영하고 있습니다.
 
 ---
 
