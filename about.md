@@ -1,10 +1,12 @@
 ---
-
-
 ---
+layout: page
+title: About
+---
+
 # 안녕하세요! 👋
 
-Software Engineer, Taeseung Kim 입니다. 기술 공유를 위해 이 공간을 운영하고 있습니다.
+Application Engineer, Taeseung Kim 입니다. 기술 공유를 위해 이 공간을 운영하고 있습니다.
 
 ---
 
@@ -51,5 +53,6 @@ Software Engineer, Taeseung Kim 입니다. 기술 공유를 위해 이 공간을
 ---
 
 ![Keep Coding](https://media.giphy.com/media/3o7aD2d7hy9ktXNDP2/giphy.gif)
+
 
 ---

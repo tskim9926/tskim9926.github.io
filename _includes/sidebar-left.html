@@ -13,7 +13,7 @@
   <div class="masthead-title">
     <a href="{{ "/" | relative_url }}" title="Home">{{ site.title }}</a>
   </div>
-
+  
   <div class="masthead-tagline">
     <small>{{ site.description }}</small>
   </div>
@@ -34,7 +34,7 @@
     <div class="social pure-menu pure-menu-horizontal">
       <ul class="social-icons pure-menu-list">
         {% for social in site.data.social -%}
-          {% if social.icon != "fab fa-twitter" %}  <!-- 트위터 아이콘을 제외하는 조건 -->
+          {% if social.icon != "fab fa-twitter" %}  <!-- 트위터 아이콘을 제외하는 조건 추가 -->
             <li class="pure-menu-item">
               <a class="social-icon pure-menu-link" href="{{ social.url }}">
                 <i class="{{ social.icon | default: 'fas fa-link' }}" title="{{ social.title }}"></i>
@@ -42,12 +42,6 @@
             </li>
           {% endif %}
         {%- endfor %}
-        <!-- 이메일 버튼 추가 (메일로 직접 연결) -->
-        <li class="pure-menu-item">
-          <a class="social-icon pure-menu-link" href="mailto:tskim9926@gmail.com" title="Email">
-            <i class="fas fa-envelope"></i>
-          </a>
-        </li>
       </ul>
     </div>
   {%- endif %}

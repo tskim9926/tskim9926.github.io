@@ -29,22 +29,18 @@ exclude:
 
 # Optimize Jekyll SEO Tag
 twitter:
-  username: tskim9926
+  username: tskim9926  # 본인 트위터 핸들로 변경
   card: summary_large_image
 logo: logo.png
 social:
   name: Taeseung Kim
   links:
-    - url: https://velog.io/@tskim9926/posts
+    - url: https://tskim9926.github.io   # 본인 사이트 링크
       title: "My Blog"
-      icon: "fas fa-home"  # 홈 아이콘
-    - url: https://github.com/tskim9926
+      icon: "fas fa-home"               # 홈 아이콘
+    - url: https://github.com/tskim9926  # 본인 GitHub 링크
       title: "GitHub"
-      icon: "fab fa-github"  # GitHub 아이콘
-    - url: "mailto:tskim9926@gmail.com"
-      title: "Email"
-      icon: "fas fa-envelope"  # 이메일 아이콘
-
+      icon: "fab fa-github"             # GitHub 아이콘
 # google_site_verification: xxxxx
 lang: en
 
@@ -64,7 +60,7 @@ sass:
 # Specify the author for blog posts
 author:
   name: Taeseung Kim
-  url: https://velog.io/@tskim9926/posts
+  url: https://github.com/tskim9926
   email: tskim9926@gmail.com
   bio: |
     Taeseung Kim, a Software Engineer specializing in semiconductor manufacturing. 
