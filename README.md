@@ -1,7 +1,6 @@
+# 안녕하세요! 👋
 
-# Hello! 👋
-
-I am Taeseung Kim, a Software Engineer. I run this space to share knowledge and technology.
+Software Engineer, Taeseung Kim 입니다. 기술 공유를 위해 이 공간을 운영하고 있습니다.
 
 ---
 
@@ -14,7 +13,7 @@ I am Taeseung Kim, a Software Engineer. I run this space to share knowledge and 
 
 ---
 
-## 🚀 Development Environment
+## 🚀 Develop Environment
 
 [![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white)](https://www.mysql.com/)
 [![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=Linux&logoColor=black)](https://www.linux.org/)
@@ -34,7 +33,7 @@ I am Taeseung Kim, a Software Engineer. I run this space to share knowledge and 
 
 ---
 
-## 📈 GitHub Activity
+## 📈 GitHub 활동도
 
 ![Taeseung Kim's GitHub stats](https://github-readme-stats.vercel.app/api?username=tskim9926&show_icons=true&theme=radical)
 
