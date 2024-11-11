@@ -1,9 +1,9 @@
-# 안녕하세요! 👋
-
-Software Engineer, Taeseung Kim 입니다. 기술 공유를 위해 이 공간을 운영하고 있습니다.
 
 ---
+# Hello! 👋
 
+I'm Taeseung Kim, a Software Engineer. This space is for sharing my knowledge and experiences.
+---
 ## 💻 Skill Stack
 
 [![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=C&logoColor=white)](https://en.wikipedia.org/wiki/C_(programming_language))
@@ -13,7 +13,7 @@ Software Engineer, Taeseung Kim 입니다. 기술 공유를 위해 이 공간을
 
 ---
 
-## 🚀 Develop Environment
+## 🚀 Development Environment
 
 [![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white)](https://www.mysql.com/)
 [![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=Linux&logoColor=black)](https://www.linux.org/)
@@ -33,7 +33,7 @@ Software Engineer, Taeseung Kim 입니다. 기술 공유를 위해 이 공간을
 
 ---
 
-## 📈 GitHub 활동도
+## 📈 GitHub Activity
 
 ![Taeseung Kim's GitHub stats](https://github-readme-stats.vercel.app/api?username=tskim9926&show_icons=true&theme=radical)
 
