@@ -1,5 +1,5 @@
 # Setup
-title: TasSeung Dev log
+title: KIM TAE SEUNG
 description: I hope we can grow together.
 url: https://tskim9926.github.io
 avatar: /avatar.jpeg
@@ -27,20 +27,14 @@ exclude:
   - scripts/
   - not-pure-poole.gemspec
 
-# Optimize Jekyl SEO Tag
+# Optimize Jekyll SEO Tag
 twitter:
-<<<<<<< HEAD
   username: tskim9926
   card: summary_large_image
-=======
-  username: Taeseung Kim
-  card: summary
->>>>>>> parent of 4abb55a (update post)
 logo: logo.png
 social:
   name: Taeseung Kim
   links:
-<<<<<<< HEAD
     - url: https://github.com/tskim9926
       title: "GitHub"
       icon: "fab fa-github"  # GitHub 아이콘
@@ -50,13 +44,9 @@ social:
 
 
 # google_site_verification: xxxxx
-=======
-    - https://tskim9926.github.io
-    - https://github.com/tskim9926
-google_site_verification: xxxxx
->>>>>>> parent of 4abb55a (update post)
 lang: en
 
+# Sass settings
 sass:
   sass_dir: _sass
   style: :compressed

@@ -1,14 +1,7 @@
-<<<<<<< HEAD
 
 # Hello! 👋
 
 I am Taeseung Kim, a Software Engineer. I run this space to share knowledge and technology.
-=======
-
-# 안녕하세요! 👋
-
-Application Engineer, Taeseung Kim 입니다. 기술 공유를 위해 이 공간을 운영하고 있습니다.
->>>>>>> parent of 4abb55a (update post)
 
 ---
 
