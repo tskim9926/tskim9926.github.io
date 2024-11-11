@@ -35,15 +35,13 @@ logo: logo.png
 social:
   name: Taeseung Kim
   links:
-    - url: https://velog.io/@tskim9926/posts
-      title: "My Blog"
-      icon: "fas fa-home"  # 홈 아이콘
     - url: https://github.com/tskim9926
       title: "GitHub"
       icon: "fab fa-github"  # GitHub 아이콘
     - url: "mailto:tskim9926@gmail.com"
       title: "Email"
       icon: "fas fa-envelope"  # 이메일 아이콘
+
 
 # google_site_verification: xxxxx
 lang: en
