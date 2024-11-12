@@ -1,8 +1,6 @@
----
----
 
 
----
+
 # Hello! 👋
 
 I'm Taeseung Kim, a Software Engineer. This space is for sharing my knowledge and experiences.
