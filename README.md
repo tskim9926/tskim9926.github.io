@@ -1,8 +1,15 @@
 ---
+---
+layout: page
+title: About
+---
+
 # Hello! 👋
 
 I'm Taeseung Kim, a Software Engineer. This space is for sharing my knowledge and experiences.
+
 ---
+
 ## 💻 Skill Stack
 
 [![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=C&logoColor=white)](https://en.wikipedia.org/wiki/C_(programming_language))
@@ -46,3 +53,6 @@ I'm Taeseung Kim, a Software Engineer. This space is for sharing my knowledge an
 ---
 
 ![Keep Coding](https://media.giphy.com/media/3o7aD2d7hy9ktXNDP2/giphy.gif)
+
+
+---
