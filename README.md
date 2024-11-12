@@ -1,8 +1,4 @@
 ---
-layout: page
-title: About
----
-
 # Hello! 👋
 
 I'm Taeseung Kim, a Software Engineer. This space is for sharing my knowledge and experiences.
@@ -53,5 +49,8 @@ I'm Taeseung Kim, a Software Engineer. This space is for sharing my knowledge an
 
 ![Keep Coding](https://media.giphy.com/media/3o7aD2d7hy9ktXNDP2/giphy.gif)
 
+---
+
+---
 
 ---
