@@ -1,6 +1,6 @@
-# 👋 
+# .
 
-**Hello! I'm Taeseung Kim**
+**👋Hello! I'm Taeseung Kim**
 
 **Software Engineer** with a passion for sharing knowledge and growing together with fellow developers.
 
