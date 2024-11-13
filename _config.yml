@@ -7,9 +7,10 @@ paginate: 5
 permalink: pretty
 cover_image: /bg.jpeg
 
-about: /about/   # About 페이지 링크 설정
+# About 페이지 링크 설정
+about: /about/   
 
-# Gems
+# Plugins
 plugins:
   - jekyll-gist
   - jekyll-paginate
@@ -25,11 +26,10 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - LICENSE.md
-  - README.md
+  - README.md            # README.md를 제외
   - scripts/
   - not-pure-poole.gemspec
 
-# Optimize Jekyll SEO Tag
 twitter:
   username: tskim9926
   card: summary_large_image
@@ -43,28 +43,31 @@ social:
     - url: "mailto:tskim9926@gmail.com"
       title: "Email"
       icon: "fas fa-envelope"  # 이메일 아이콘
+    - url: https://tskim9926.tistory.com/
+      title: "Blog"
+      icon: "fas fa-blog"  # 블로그 아이콘 (적절한 아이콘 클래스를 선택)
 
-
-# google_site_verification: xxxxx
+    
+# SEO 및 기타 설정
 lang: en
 
-# Sass settings
+# Sass 설정
 sass:
   sass_dir: _sass
   style: :compressed
 
-# Options
+# 옵션
 
-# Replace this value and uncomment to enable Google Analytics tracking
+# Google Analytics 추적 활성화하려면 주석 해제하고 값 입력
 # google_analytics: UA-000000-0
 
-# Replace this value and uncomment to enable Disqus
+# Disqus 사용을 위해 주석 해제하고 값 입력
 # disqus: xxxxxx
 
-# Specify the author for blog posts
+# 블로그 게시물 작성자 정보
 author:
   name: Taeseung Kim
-  url: https://velog.io/@tskim9926/posts
+  url: https://tskim9926.tistory.com/
   email: tskim9926@gmail.com
   bio: |
     Taeseung Kim, a Software Engineer specializing in semiconductor manufacturing. 
