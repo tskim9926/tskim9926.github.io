@@ -7,27 +7,33 @@
 
 ---
 
-### 💻 Skill Stack
+### 💻 Language
 
-[![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=C&logoColor=white)](https://en.wikipedia.org/wiki/C_(programming_language))
 [![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=C%2B%2B&logoColor=white)](https://en.wikipedia.org/wiki/C%2B%2B)
 [![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=CSharp&logoColor=white)](https://en.wikipedia.org/wiki/C_Sharp_(programming_language))
 [![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white)](https://www.python.org/)
 
 ---
 
-### 🛠 Development Environment & Tools
+### 🛠 Tools
 
-[![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=Linux&logoColor=black)](https://www.linux.org/)
-[![Visual Studio](https://img.shields.io/badge/Visual%20Studio-5C2D91?style=flat-square&logo=VisualStudio&logoColor=white)](https://visualstudio.microsoft.com/)
-[![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=Git&logoColor=white)](https://git-scm.com/)
-[![MySQL Workbench](https://img.shields.io/badge/Workbench-4479A1?style=flat-square&logo=MySQL&logoColor=white)](https://www.mysql.com/products/workbench/)
+[![Visual Studio](https://img.shields.io/badge/Visual_Studio-5C2D91?style=flat-square&logo=visualstudio&logoColor=white)](https://visualstudio.microsoft.com/)
+[![Visual Studio Code](https://img.shields.io/badge/VS_Code-0078D7?style=flat-square&logo=visualstudiocode&logoColor=white)](https://code.visualstudio.com/)
 
 ---
 
-### 📈 GitHub Stats
+### DBMS
 
-![Taeseung's GitHub stats](https://github-readme-stats.vercel.app/api?username=tskim9926&show_icons=true&theme=radical)
+[![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=SQLite&logoColor=white)](https://www.sqlite.org/)
+[![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)](https://www.mysql.com/)
+
+---
+
+### CI / CD
+
+[![Git](https://img.shields.io/badge/Git-F05033?style=flat-square&logo=git&logoColor=white)](https://git-scm.com/)
+[![Bitbucket](https://img.shields.io/badge/Bitbucket-0052CC?style=flat-square&logo=bitbucket&logoColor=white)](https://bitbucket.org/)
+[![Jira](https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=jira&logoColor=white)](https://www.atlassian.com/software/jira)
 
 ---
 
