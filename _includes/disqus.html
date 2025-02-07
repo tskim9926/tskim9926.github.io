@@ -1,0 +1,24 @@
+<div id="disqus_thread"></div> <!-- Disqus 댓글을 표시할 곳 -->
+<script>
+  var disqus_config = function () {
+    // 현재 페이지의 URL과 식별자를 설정
+    this.page.url = '{{ page.url | absolute_url }}';
+    this.page.identifier = '{{ page.url | absolute_url }}';
+  };
+
+  (function() {
+    var d = document, s = d.createElement('script');
+
+    // Disqus 댓글 시스템의 스크립트 파일을 불러옴
+    s.src = 'https://{{ site.disqus }}.disqus.com/embed.js';
+
+    s.setAttribute('data-timestamp', +new Date()); // 스크립트 로딩 시간을 설정
+    (d.head || d.body).appendChild(s); // 페이지에 스크립트를 삽입
+  })();
+</script>
+
+<!-- JavaScript를 비활성화한 경우 대체 메시지 표시 -->
+<noscript>
+  Please enable JavaScript to view the 
+  <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
+</noscript>

@@ -1,0 +1,25 @@
+<head>
+  <!-- 문자 인코딩을 UTF-8로 설정 -->
+  <meta charset="UTF-8">
+  
+  <!-- 반응형 웹 디자인을 위한 뷰포트 설정 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- PureCSS 라이브러리 추가 (스타일시트) -->
+  <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css" integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
+  
+  <!-- PureCSS의 그리드 시스템 추가 (반응형 그리드) -->
+  <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/grids-responsive-min.css">
+  
+  <!-- 사용자 정의 스타일시트 링크 (assets/styles.css) -->
+  <link rel="stylesheet" href="{{ 'assets/styles.css' | relative_url }}">
+
+  <!-- SEO 및 메타 정보 자동 생성 (Jekyll SEO 태그 사용) -->
+  {%- seo -%}
+  
+  <!-- RSS 피드 메타 데이터 추가 (Jekyll Feed 사용) -->
+  {%- feed_meta -%}
+
+  <!-- 추가적인 커스텀 헤드 내용 (head.html 파일에 포함된 다른 설정들) -->
+  {%- include custom-head.html -%}
+</head>

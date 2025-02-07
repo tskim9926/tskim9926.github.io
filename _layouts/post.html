@@ -1,0 +1,56 @@
+---
+layout: default
+---
+
+<article class="post">
+  <h1 class="post-title">{{ page.title }}</h1> <!-- 포스트 제목 출력 -->
+  
+  <div class="post-meta">
+    {%- assign date_format = site.date_format | default: "%-d %b %Y" -%} <!-- 날짜 형식 설정 -->
+    <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: date_format }}</time> <!-- 포스트 작성일 출력 -->
+    
+    {%- if page.last_modified_at -%} <!-- 수정일이 있는 경우 출력 -->
+      <span> ~ </span>
+      {%- assign mdate = page.last_modified_at | date_to_xmlschema -%} <!-- 수정일 포맷 -->
+      <time datetime="{{ mdate }}" itemprop="dateModified">
+        {{ mdate | date: date_format }} <!-- 수정일 출력 -->
+      </time>
+    {%- endif -%}
+    
+    {%- if page.author -%} <!-- 작성자가 있는 경우 출력 -->
+      <span> • </span>
+      {% for author in page.author %} <!-- 여러 명의 작성자 출력 -->
+        <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+          {{ author }}
+        </span>
+        {%- if forloop.last == false %}, {% endif -%} <!-- 작성자가 여러 명일 경우 구분자 추가 -->
+      {% endfor %}
+    {%- endif -%}
+  </div>
+
+  {{ content }} <!-- 포스트 본문 내용 출력 -->
+
+  {% if page.tags %} <!-- 태그가 있는 경우 출력 -->
+    {% include post-tags.html %}
+  {% endif %}
+
+  {% if jekyll.environment == "production" and site.disqus and page.comments != false %} <!-- Disqus 댓글 시스템 -->
+    {% include disqus.html %}
+  {% endif %}
+</article>
+
+{% if site.related_posts != empty %} <!-- 관련 포스트가 있는 경우 출력 -->
+<aside class="related">
+  <h2>Related posts</h2>
+  <ul class="related-posts">
+    {% for post in site.related_posts limit:3 %} <!-- 최대 3개의 관련 포스트 출력 -->
+      <li>
+        <a href="{{ post.url | relative_url }}">
+          {{ post.title }}
+          <small><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time></small> <!-- 관련 포스트 제목과 작성일 -->
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</aside>
+{% endif %}

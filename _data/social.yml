@@ -1,0 +1,9 @@
+- title: Email
+  url: "mailto:tskim9926@gmail.com"
+  icon: fas fa-envelope
+- title: GitHub
+  url: "https://github.com/tskim9926?tab=repositories"
+  icon: fab fa-github
+- title: Blog
+  url: "https://tskim9926.tistory.com/"
+  icon: fas fa-blog  # 블로그 아이콘

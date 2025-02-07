@@ -1,0 +1,48 @@
+<header class="masthead">
+  {% if site.avatar -%}
+    <div class="avatar">
+      {%- if site.avatar contains "://" -%} <!-- Avatar URL이 절대 경로인지 확인 -->
+        {%- assign avatar = site.avatar -%} <!-- 절대 경로인 경우 그대로 사용 -->
+      {%- else -%}
+        {%- assign avatar = site.avatar | relative_url -%} <!-- 상대 경로일 경우 상대 URL을 절대 경로로 변환 -->
+      {%- endif -%}
+      <img src="{{ avatar }}" class="avatar-image" alt="{{ site.author.name }}"> <!-- Avatar 이미지 출력 -->
+    </div>
+  {%- endif %}
+
+  <div class="masthead-title">
+    <a href="{{ "/" | relative_url }}" title="Home">{{ site.title }}</a> <!-- 사이트 제목 출력, 홈 링크 -->
+  </div>
+  
+  <div class="masthead-tagline">
+    <small>{{ site.description }}</small> <!-- 사이트 설명 출력 -->
+  </div>
+
+  {%- if site.data.navigation -%} <!-- navigation 데이터가 있을 경우 네비게이션 메뉴 출력 -->
+  <nav class="navigation">
+    <ul class="navigation-list">
+      {%- for nav in site.data.navigation -%} <!-- 네비게이션 항목을 반복하여 출력 -->
+        <li class="navigation-item">
+          <a onclick="sessionStorage.setItem('forceCheckScroll', 'true')" href="{{ nav.url | relative_url }}">{{ nav.title | escape }}</a> <!-- 네비게이션 링크 출력 -->
+        </li>
+      {%- endfor -%}
+    </ul>
+  </nav>
+  {%- endif -%}
+
+  {% if site.data.social -%} <!-- social 데이터가 있을 경우 소셜 아이콘 출력 -->
+    <div class="social pure-menu pure-menu-horizontal">
+      <ul class="social-icons pure-menu-list">
+        {% for social in site.data.social -%} <!-- 소셜 링크를 반복하여 출력 -->
+          {% if social.icon != "fab fa-twitter" %}  <!-- 트위터 아이콘을 제외하는 조건 추가 -->
+            <li class="pure-menu-item">
+              <a class="social-icon pure-menu-link" href="{{ social.url }}">
+                <i class="{{ social.icon | default: 'fas fa-link' }}" title="{{ social.title }}"></i> <!-- 소셜 아이콘 출력 -->
+              </a>
+            </li>
+          {% endif %}
+        {%- endfor %}
+      </ul>
+    </div>
+  {%- endif %}
+</header>

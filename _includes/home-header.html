@@ -1,0 +1,28 @@
+<div class="home-header pure-menu pure-menu-horizontal">
+  <div class="home-header-bar">
+    {% if site.data.archive %}
+    <ul class="home-header-menu pure-menu-list">
+      {% for item in site.data.archive %}
+        <li class="pure-menu-item">
+          <a href="{{ item.url | relative_url }}" class="pure-menu-link {% if page.url == item.url %}current-item{% endif %}"">{{ item.title }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+
+    <!-- 이메일 아이콘과 링크 추가 -->
+    <a href="mailto:tskim9926@gmail.com" class="pure-menu-link" title="Email">
+      <i class="fas fa-envelope"></i>
+    </a>
+
+    <!-- GitHub 아이콘과 링크 추가 -->
+    <a href="https://github.com/tskim9926?tab=repositories" class="pure-menu-link" title="GitHub">
+      <i class="fab fa-github"></i>
+    </a>
+
+    <!-- 블로그 아이콘과 링크 추가 -->
+    <a href="https://tskim9926.tistory.com/" class="pure-menu-link" title="Blog">
+      <i class="fas fa-blog"></i>
+    </a>
+  </div>
+</div>
