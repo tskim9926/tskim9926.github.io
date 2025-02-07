@@ -56,7 +56,7 @@ int main()
 
 	memo.resize(n + 1, -1); // -1로 배열 초기화
 	cout << "Fibonacci(" << n << ")= " << fibonacci(n) << endl;
-  cout << "Fibonacci2(" << n << ")= " << fibonacci2(n) << endl;
+    cout << "Fibonacci2(" << n << ")= " << fibonacci2(n) << endl;
 
 	return 0;
 }
