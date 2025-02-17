@@ -54,10 +54,16 @@ sass:
   style: :compressed
 
 # Google Analytics 설정
-google_analytics: UA-000000-0  # 실제 추적 ID로 변경 필요
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-WRRCRTN5TC"
+    anonymize_ip: false  # IP 익명화 설정 (필요에 따라 true로 변경 가능)
 
-# AdSense 설정 (필요시 적용)
-ad_client: ca-pub-xxxxxxxxxxxxxxxx
+# Google AdSense 설정
+adsense:
+  enabled: true  # AdSense 활성화 여부
+  client_id: "ca-pub-7555924334853398"  # 본인의 애드센스 퍼블리셔 ID 입력
 
 # 블로그 게시물 작성자 정보
 author:
