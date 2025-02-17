@@ -8,7 +8,7 @@ permalink: pretty
 cover_image: /bg.jpeg
 
 # About 페이지 링크 설정
-about: /about/   
+about: /about.md
 
 # Plugins
 plugins:
@@ -30,6 +30,7 @@ exclude:
   - scripts/
   - not-pure-poole.gemspec
 
+# Social Links
 twitter:
   username: tskim9926
   card: summary_large_image
@@ -39,15 +40,11 @@ social:
   links:
     - url: https://github.com/tskim9926
       title: "GitHub"
-      icon: "fab fa-github"  # GitHub 아이콘
+      icon: "fab fa-github"
     - url: "mailto:tskim9926@gmail.com"
       title: "Email"
-      icon: "fas fa-envelope"  # 이메일 아이콘
-    - url: https://tskim9926.tistory.com/
-      title: "Blog"
-      icon: "fas fa-blog"  # 블로그 아이콘 (적절한 아이콘 클래스를 선택)
+      icon: "fas fa-envelope"
 
-    
 # SEO 및 기타 설정
 lang: en
 
@@ -56,21 +53,25 @@ sass:
   sass_dir: _sass
   style: :compressed
 
-# 옵션
+# Google Analytics 설정
+google_analytics: UA-000000-0  # 실제 추적 ID로 변경 필요
 
-# Google Analytics 추적 활성화하려면 주석 해제하고 값 입력
-# google_analytics: UA-000000-0
-
-# Disqus 사용을 위해 주석 해제하고 값 입력
-# disqus: xxxxxx
+# AdSense 설정 (필요시 적용)
+ad_client: ca-pub-xxxxxxxxxxxxxxxx
 
 # 블로그 게시물 작성자 정보
 author:
   name: Taeseung Kim
-  url: https://tskim9926.tistory.com/
+  url: https://tskim9926.github.io
   email: tskim9926@gmail.com
   bio: |
-    Taeseung Kim, a Software Engineer specializing in semiconductor manufacturing. 
-    Since August 2020, I have been developing systems and equipment that control lasers and scanners 
-    based on recipe data to shape patterns on wafers.
-    I graduated with a Bachelor's degree in Electronic Engineering from Korea Polytechnic University.
+     Jekyll 블로그를 운영하며 기술과 경험을 공유합니다.
+
+# 네비게이션 메뉴 설정
+nav:
+  - title: "Blog"
+    url: "/"
+  - title: "About"
+    url: "/about/"
+  - title: "Post"
+    url: "/post/"
